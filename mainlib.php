@@ -276,7 +276,7 @@ function test_task_parent($row2)
                                 <a class="accordion-toggle">
                                     '.$row2['task_name'].'
                                 </a>';
-                                write_donetasks($task_id);
+                                //write_donetasks($task_id);
                           echo '<span class="show_on_hover">
                                     <a href="#InsertTaskModal'.$task_id.'" data-toggle="modal" onclick="setfocusInsertTaskModal('.$task_id.');"><i class="icon-grey icon-plus-sign pointer"></i></a>
                                     <a href="#RemoveTaskModal'.$task_id.'" data-toggle="modal"><i class="icon-grey icon-remove-sign pointer"></i></a>
@@ -312,7 +312,7 @@ function test_task_parent($row2)
                                 <a class="accordion-toggle">
                                     '.$row2['task_name'].'
                                 </a>';
-                                write_donetasks($task_id);
+                                //write_donetasks($task_id);
                           echo '<span class="show_on_hover">
                                     <a href="#InsertTaskModal'.$task_id.'" data-toggle="modal" onclick="setfocusInsertTaskModal('.$task_id.');"><i class="icon-grey icon-plus-sign pointer"></i></a>
                                     <a href="#RemoveTaskModal'.$task_id.'" data-toggle="modal"><i class="icon-grey icon-remove-sign pointer"></i></a>
