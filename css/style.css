@@ -1,0 +1,181 @@
+body{
+    margin:0px;
+    color:grey;
+    background-color: #FBEFEF;
+    font-size: 14px;
+}
+a{
+    color:grey;
+}
+a:hover{
+    cursor: pointer;
+    color:grey;
+    text-decoration: none;
+}
+a.info{
+    font-size: 9px;
+    color:#fff;
+    cursor:auto;
+}
+a.style1{
+    font-size: 14px;
+    font-weight: normal;
+}
+a.style2{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 40px;
+}
+.pointer{
+    cursor: pointer;
+}
+.hidden{
+    visibility: hidden;
+}
+div.center{
+    text-align: center;
+    border: 0px solid silver;
+}
+div.topcontrols{
+    margin: 0px 4px 10px 4px;
+    text-align: right;
+}
+div.content{
+    margin:10px auto;
+    max-width: 600px;
+}
+div.centerpage{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 1050;
+  width: 560px;
+  height: 20px;
+  margin: -250px 0 0 -280px;
+  background-color: #ffffff;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  *border: 1px solid #999;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  outline: none;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+     -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -webkit-background-clip: padding-box;
+     -moz-background-clip: padding-box;
+          background-clip: padding-box;
+}
+header{
+    margin: 0px;
+    padding: 6px;
+    text-align: center;
+    background-color: #DF0101;
+    color:#fff;
+    border-radius:  10px 10px 0 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+section{
+    min-height: 100px;
+    border: 1px solid #DF0101;
+    background-color: #fff;
+    padding-top: 4px;
+}
+section.installsection{
+    padding: 10px;
+}
+section div.accordion-group{
+    margin-top: 0px;
+    border: none;
+}
+section div.accordion-group div.accordion-heading{
+    margin: 0px 4px 0px 4px;
+    padding: 0px;
+    border-bottom: 0px solid silver;
+    font-weight: bold;
+    font-size: 16px;
+}
+section div.accordion-group div.accordion-heading.projectname{
+    background-color: #FBEFEF;
+    padding: 2px;
+    /*border-bottom: 1px solid silver;*/
+}
+section div.accordion-group div.accordion-heading a.accordion-toggle{
+    margin: 2px;
+    padding: 0px;
+    width: 50%;
+    display: inline;
+}
+section div.accordion-group div.accordion-body{
+    margin: 0px 4px 0px 4px;
+    padding: 0px 0px 0px 0px;;
+    border: none;
+}
+section div.accordion-group div.accordion-body div.accordion-inner{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+section div.accordion-group div.accordion-body div.accordion-inner div.task{
+    min-height: 22px;
+    padding-left: 10px;
+    margin-top: 2px;
+    border: 0px solid greenyellow;
+}
+section div.accordion-group div.accordion-heading.taskgroup:hover,
+section div.accordion-group div.accordion-body div.accordion-inner div.task:hover{
+    background-color: #FFF9F9;
+}
+section div.accordion-group div.accordion-body div.accordion-inner div.task span.tasklabel{ 
+    border:0px solid red;
+}
+section div.accordion-group div.accordion-body div.accordion-inner div.task span.checkbox{
+    padding: 0px;
+    width: 18px;
+    border: 1px solid silver;
+    float: right;
+}
+section div.accordion-group div.accordion-heading.taskgroup{
+    margin:2px 0px 2px 10px;
+    border-bottom: 0px;
+    font-size: 14px;
+    background-color: #fff;
+}
+section div.accordion-group div.accordion-heading span.checkbox{
+    padding: 0px;
+    width: 18px;
+    border: 0px solid silver;
+    float: right;
+}
+section div.accordion-group div.accordion-body.taskgroup{
+    margin: 0px 0px 0px 20px;
+    padding: 0px 0px 0px 0px;;
+    border: none;
+}
+footer{
+    margin: 0px;
+    padding: 2px;
+    text-align: center;
+    background-color: #DF0101;
+    border-radius: 0 0 10px 10px;
+    color:#fff;
+}
+form.simpleform{
+    border:0px solid red;
+}
+form.simpleform div.row{
+    width: 100%;
+    margin:0px;
+    text-align: center;
+}
+form.simpleform div.row input[type="text"]{
+    width: 80%;
+    margin-top: 10px;
+}
+form.simpleform div.row input[type="button"],
+form.simpleform div.row input[type="submit"]
+{
+    width: 15%;
+}
