@@ -32,7 +32,7 @@
                 ?>
             </section>
             <footer>
-                <b>Powered by:</b> DanielGouveia
+                <a href="http://joblovr.com/profile/1701" class="link">DanielGouveia</a>
             </footer>
         </div>
     </body>
